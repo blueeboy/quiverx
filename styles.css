@@ -132,6 +132,7 @@ nav .links a:hover::before {
   font-size: 0.9em;
 }
 
+
 .hero {
   width: 100%;
   height: 90vh;
@@ -341,8 +342,20 @@ nav .links a:hover::before {
   border-radius: 3px;
 }
 
+.skill {
+  display: flex;
+  flex-direction: column;
+}
+
 .skill img {
   width: 70px;
+}
+
+.line {
+  width: 70px;
+  height: 2px;
+  background: linear-gradient(135deg, #ea4245, #673bb2);
+  margin: 2em 0;
 }
 
 
@@ -546,6 +559,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .contact h4 {
@@ -683,7 +697,7 @@ color: var(--text-color);
 
 .why img {
   width: 200%;
-  margin-left: -10em;
+  margin-left: -8em;
 }
   
 }
@@ -730,22 +744,21 @@ color: var(--text-color);
     display: none;
   }
   
-
-  .buttons {
-    margin-left: 8em;
-  }
-
   .hero {
     justify-content: center;
     align-items: center;
-    gap: 3em;
+    gap: 5em;
     padding: 0em 1em;
     color: var(--text-color);
+  }
+
+  .head {
+    gap: 3em;
   }
   
   .head h1 {
     width: 90%;
-    font-size: 2em;
+    font-size: 3em;
   }
   
   .head p {
@@ -985,7 +998,7 @@ footer {
 
 .button--submit {
   min-height: 40px;
-  left: 41.5%;
+  left: 26.5%;
   top: 9%;
 }
 
@@ -1037,6 +1050,19 @@ footer {
 .why img {
     width: 150%;
     margin-left: 0em;
+}
+
+.button--submit {
+  min-height: 40px;
+  left: 51%;
+  top: 9%;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(135deg, #ea4245, #673bb2);
+  margin: 2em 0;
 }
   
 }
